@@ -1,5 +1,6 @@
 // Because classes are not hoisted you will need to start your code at the bottom of the page.  Look for the comment "START HERE"
 
+
 class Article {
   constructor(domElement) {
     // assign this.domElement to the passed in domElement
@@ -11,6 +12,7 @@ class Article {
     
     // Set a click handler on the expandButton reference, calling the expandArticle method.
     this.expandButton.addEventListener('click', () => this.expandArticle());
+     
   }
 
   expandArticle() {
